@@ -1,0 +1,1400 @@
+html{
+    font-size: 62.5%
+}
+body{
+    margin:0;
+    padding:0;
+    font-size: 1.8rem;
+}
+
+                                    /** header **/
+
+header{
+    display:flex;
+    background-color: #FFF;
+    justify-content:space-between;
+    align-items:center;
+    width:1250px;
+    margin:0 auto;
+}
+
+h1{
+    color: #4FA138;
+    font-family: 'Slackey', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.container__header__logo{
+    padding:0px;
+}
+
+.container__header{
+    display: flex;
+    justify-content:space-between;
+    list-style: none;
+    background-color: #FFF;
+    width:800px;
+}
+
+.container__header__menu{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.container__header__menu svg{
+    transform: rotate(-90deg);
+}
+
+.container__header__submenu{
+    display:none;
+    padding:0;
+    background-color: #FFF;
+    list-style-type: none;
+}
+
+.container__header__submenu a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container__header li{
+   position:relative;
+}
+
+.container__header__icons{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    width:80px;
+}
+
+.container__header__icons>svg{
+    width:31px;
+    stroke-width: 1.2px;
+}
+
+.container__header__icons svg:hover{
+    color:#4FA138;
+}
+
+li:hover .container__header__submenu{
+    display:block;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:350px;
+}
+
+li .container__header__menu:hover a{
+    color:#4FA138;
+}
+
+.container__header__submenu a:hover{
+    color:#4FA138;
+}
+
+.container__header__menu:hover svg{
+    transform: rotate(0);
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.container__header__menu a{
+    padding: 20px 5px 20px 0px;
+}
+
+.container__header__submenu a{
+    padding: 20px 5px 20px 20px;
+}
+
+                                        /**footer*/
+
+footer{
+    background-color:#000;
+}
+
+.container__footer{
+    width:1250px;
+    margin:0 auto;
+}
+
+.container__footer h3{
+    color: #FFBC0E;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    padding:41px 0px 0px 0px;
+    margin:0;
+}
+
+                            /*footer__form**/
+.container__footer__account__fillIn__box label{
+    display:none;
+}
+
+.container__footer__account{
+    display:flex;
+    justify-content:space-between;
+    padding: 31px 0px 43px 0px;
+}
+
+.container__footer__account__fillIn__box input{
+    width: 300px;
+    height: 33px;
+    background: #FFF;
+}
+
+.container__footer__account__fillIn{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    height:85px;
+}
+.container__footer__account__fillIn input, .container__footer__account__genre__title{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.container__footer__account__genre{
+    background-color:#FFF;
+    width: 109px;
+    height: 85px;
+}
+
+.container__footer__account__genre__choices{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left:15px;
+    padding-top:3px;
+}
+
+                        /**form checkbox*/
+.container__footer__conditions{
+    color:#FFF;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container__footer__conditions__choices{
+    padding-bottom:10px
+}
+
+.container__footer__button{
+    padding:46px 0px 30px 0px;
+    display:flex;
+    justify-content: center;
+}
+
+.container__footer__button__position input{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 120px;
+    text-align: center;
+    background:#FFBC0E;
+    border-radius: 50px;
+    border-color: #FFBC0E;
+    padding:10px 20px 10px 20px;
+    border:solid;
+}
+
+.container__footer__button__position input:hover{
+    background:#FFD60A;
+}
+
+span{
+    color:#FFF;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/**main__index**/
+
+                                        /**main_hero*/
+.container__hero{
+    background-color: #FFD60A;
+}
+
+.container__hero__content{
+    max-width:1250px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.container__hero__content__text{
+    padding: 60px 0px;
+}
+
+.container__hero__content__text h3{
+    color: #000;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    width: 329px;
+    flex-shrink: 0;
+    margin:0;
+    padding:0;
+}
+
+.container__hero__content__text p{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 350px;
+    flex-shrink: 0;
+    margin:10px 0px 0px 0px;
+    padding:0;
+}
+
+.container__hero__content__text__button a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFF;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
+    margin-top:15px; 
+}
+
+.container__hero__content__text__button{
+    padding: 20px 5px 20px 0px;
+}
+
+.container__hero__content__text__button a:hover{
+    background:#FFBC0E;
+}
+
+.container__hero__content__picture{
+    margin: auto 80px 0 auto;
+    line-height: 0;
+}
+
+.container__hero__content__picture img{
+    width:640px;
+}
+
+                                        /**main__main*/
+.container__main{
+    width:1250px;
+    margin:0 auto;
+}
+
+.container__main h3{
+    margin:36px 0px 36px 0px;
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container__main__content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__main__content__images{
+    background-color:#4FA138;
+    padding:0 80px 0 80px;
+    display:flex;
+    border-radius:30px;
+    height:375px;
+    justify-content: center;
+}
+
+.container__main__content__title{
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin:25px 0px 30px 0px;
+}
+
+.container__main__content__box{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 550px;
+    padding-bottom:52px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+
+.container__main__content__button a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFBC0E;
+    border-radius: 50px;
+    padding:10px 20px;
+    margin-top:27px;
+}
+
+.container__main__content__button:hover a{
+    background:#FFD60A;
+}
+
+/**main__mybob*/
+
+                                /**main_mybob_hero*/
+.container__mybob__hero{
+    background-color: #43B7DB;
+}
+.container__mybob__hero__content{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.container__mybob__hero__content__image img{
+    height:340px;
+}
+
+.container__mybob__hero__content__image{
+    line-height:0;
+    width:411px;
+    text-align:right;
+}
+
+.container__mybob__hero h3{
+    color: #000;
+    text-align: center;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 32px;   
+    font-weight: 400;
+    width: 329px;
+    padding:0;
+    margin:0;
+}
+
+.container__mybob__hero__content__text{
+    padding:82px 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: #000;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width:350px;
+}
+
+.container__mybob__hero__content__button a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFF;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
+    margin-top:15px;
+}
+     
+.container__mybob__hero__content__button a:hover{
+    background:#FFBC0E;
+}
+
+                                /**main_mybob*/
+
+.container__mybob__main{
+    width:1250px;
+    margin:0 auto;
+}
+
+.container__mybob__main h3{
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    margin:36px 0px;
+}
+
+.container__mybob__main__content{
+    display:flex;
+    justify-content:space-around;
+}
+
+.container__mybob__main__content__text{
+    text-align:center;
+}
+
+.container__mybob__main__content__text img{
+    height:300px;
+}
+
+.container__mybob__main__content__text div{
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin:25px 0px 30px 0px;
+}
+
+.container__mybob__main__content__text p{
+    color: #000;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width:370px;
+    margin:16px 0px;
+}
+
+.container__mybob__main__button{
+    width:1250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.container__mybob__main__button__text a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFBC0E;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
+    margin:27px 0px 52px 0px;
+}
+
+.container__mybob__main__button__text:hover a{
+    background:#FFD60A;
+}
+
+                    /** myobob__main__personnalisation*/
+
+.container__mybob__main2{
+    background-color: #4FA138;
+}
+
+.container__mybob__main2__content{
+    width:1250px;
+    margin:0 auto;
+}
+
+.container__mybob__main2__content>h3{
+    margin:0px;
+    padding:44px 0px 60px 0px;
+    display:flex;
+    justify-content:center;
+    color: #000;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.container__mybob__main2__content__order{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    width:1100px;
+    margin:0 auto;
+}
+
+.container__mybob__main2__content__order__box{
+    width: 360px;
+    height: 416px;
+    border-radius: 20px;
+    background: #FFF;
+    padding: 25px 20px 20px 20px;
+}
+
+.container__mybob__main2__content__order__visual img{
+    height:350px;
+}
+
+                /*box personnalisation**/
+
+.container__mybob__main2__content__choice{
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.container__mybob__main2__content__menu{
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    padding:15px 10px 10px 10px;
+    width: 350px;
+    list-style-type: none;
+    justify-content: space-between;
+    height:370px;
+}
+
+.container__mybob__main2__content__menu__options{
+    padding:12px 0px;
+}
+
+.container__mybob__main2__content__menu__options__title{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    position:relative;
+}
+
+.container__mybob__main2__content__menu__options__title svg{
+    transform: rotate(-90deg);
+}
+
+.container__mybob__main2__content__menu img{
+    width:80px;
+    padding:0px;
+}
+
+.container__mybob__main2__content__menu__submenu{
+    display:flex;
+    padding:20px 5px 22px 0px;
+    justify-content: space-between;
+    display:none;
+}
+
+.container__mybob__main2__content__menu__submenu li{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content:space-between;
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.container__mybob__main2__content__menu__submenu li div{
+    padding-top:5px;
+}
+
+
+                            /**box personnalisation hover**/
+
+li:hover .container__mybob__main2__content__menu__submenu{
+    display:flex;
+
+}
+
+.container__mybob__main2__content__menu__options:hover .container__mybob__main2__content__menu__options__title svg{
+    transform: rotate(0deg);
+}
+
+.container__mybob__main2__content__menu__options:hover .container__mybob__main2__content__menu__options__title{
+    text-decoration: underline;
+    text-decoration-color: #FFD60A;
+}
+
+.container__mybob__main2__content__menu__submenu div:hover{
+    color:#FFBC0E;
+}
+
+/**fin box personnalisation**/
+
+.container__mybob__main2__content__button{
+    width:1250px;
+    margin:0 auto;
+    display:flex;
+    justify-content: center;
+}
+
+.container__mybob__main2__content__button__text a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFBC0E;
+    border-radius: 50px;
+    padding:10px 20px;
+    margin:52px 0px 52px 0px;
+}
+
+.container__mybob__main2__content__button__text:hover a{
+    background:#FFD60A;
+}
+
+/**main__yourbob*/
+
+                                /**main_yourbob_hero*/
+
+.container__yourbob__hero{
+    background-color: #4FA138;
+}
+.container__yourbob__hero__content{
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+}
+
+.container__yourbob__hero__content__image img{
+    height:340px;
+}
+
+.container__yourbob__hero__content__image{
+    line-height:0;
+    width:411px;
+    text-align:right;
+}
+
+.container__yourbob__hero h3{
+    color: #000;
+    text-align: center;
+    font-family: 'Bowlby One SC', sans-serif;
+    font-size: 32px;   
+    font-weight: 400;
+    width: 329px;
+    padding:0;
+    margin:0;
+}
+
+.container__yourbob__hero__content__text{
+    padding:82px 50px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: #000;
+    text-align: center;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width:350px;
+}
+
+.container__yourbob__hero__content__button a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFF;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
+    margin-top:15px;
+}
+        
+.container__yourbob__hero__content__button a:hover{
+    background:#FFBC0E;
+}
+
+                            /**main_yourbob*/
+
+.container__yourbob__main__width{
+    width:1250px;
+    margin:0 auto;
+}
+
+.container__yourbob__main__content{
+    width:1200px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+}
+
+.container__yourbob__main__title{
+    margin:30px 0px 40px 0px;
+}
+
+.container__yourbob__main__title h3{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    margin:0px 0px 15px 0px;
+}
+
+.container__yourbob__main__image img{
+    width:450px;
+    padding:30px 0px 0px 0px;
+}
+
+.container__yourbob__main__content__text__box>div{
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    margin:25px 0px 30px 0px;
+}
+
+.container__yourbob__main__content__text__box p{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width:430px;
+    margin:16px 0px;
+}
+
+.container__yourbob__main__button__text a{
+    color: #000;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 75px;
+    text-align: center;
+    background:#FFBC0E;
+    border-radius: 50px;
+    padding:10px 20px 10px 20px;
+    margin:27px 0px 52px 0px;
+}
+
+.container__yourbob__main__button__text a:hover{
+    background:#FFD60A;
+}
+
+/**main__yourbob__saisons*/
+
+.container__yourbob__main__background{
+    background-color:#FEB9D6;
+    /*background-color:#43B7DB;*/
+}
+
+.container__yourbob__main__saison{
+    width:1250px;
+    margin:0 auto;
+}
+
+.container__yourbob__main__saison>h3{
+    text-align: center;
+    color: #000;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 30px;
+    font-weight: 400;
+    margin:0px;
+    padding:30px 0px;
+}
+
+.container__yourbob__main__saison__box div{
+    display:flex;
+    justify-content: space-between;
+}
+
+.container__yourbob__main__saison__box__duo div{
+    display:flex;
+    margin:0px 0px 50px 0px;
+}
+
+.container__yourbob__main__saison__box__duo{
+    margin:0px 150px;
+}
+
+.container__yourbob__main__saison__box__summer, .container__yourbob__main__saison__box__autumn, .container__yourbob__main__saison__box__winter, .container__yourbob__main__saison__box__spring{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    width: 405px;
+    height: 263px;
+    border-radius: 20px; 
+    color: #FFBC0E;
+    font-family: 'Rubik Mono One', monospace;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.box__texture{
+    color: #FFBC0E;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container__yourbob__main__saison__box__summer{
+    background-image: url(../images/coton1.jpeg);
+}
+
+.container__yourbob__main__saison__box__autumn{
+    background-image: url(../images/veloursc.jpeg);
+}
+
+.container__yourbob__main__saison__box__winter{
+    background-image: url(../images/moumoute1.jpeg);
+}
+
+.container__yourbob__main__saison__box__spring{
+    background-image: url(../images/imper.jpeg);
+}
+
+.container__yourbob__main__saison__box__summer:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/coton1.jpeg);
+}
+.container__yourbob__main__saison__box__autumn:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/veloursc.jpeg);
+}
+
+.container__yourbob__main__saison__box__winter:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/moumoute1.jpeg);
+}
+
+.container__yourbob__main__saison__box__spring:hover{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url(../images/imper.jpeg);
+}
+
+.container__yourbob__main__saison__box__summer:hover p, .container__yourbob__main__saison__box__autumn:hover p, .container__yourbob__main__saison__box__winter:hover p, .container__yourbob__main__saison__box__spring:hover p{
+    color:#FFD60A;
+}
+
+                                    /*@media screen**/
+
+@media screen and (max-width: 1100px){
+
+    header{
+        width:790px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .container__header{
+        padding:0px;
+    }
+
+    .container__footer{
+        width: 790px;
+    }
+
+    .container__footer h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    /**index*/
+    .container__hero__content{
+        width: 790px;
+        margin:0 auto;
+    }
+
+    .container__hero__content__text{
+        padding: 40px 0px;
+    }
+
+    .container__hero__content__text h3{
+        font-size:30px;
+        width:300px;
+    }
+
+    .container__hero__content__text p{
+        font-size:16px;
+        width:290px;
+    }
+
+    .container__hero__content__picture img{
+        width:485px;
+    }
+
+    .container__main{
+        width:790px;
+    }
+
+    .container__main h3{
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__main__content{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    /**mybob*/
+
+    .container__mybob__hero__content{
+        width: 790px;
+        margin:0 auto;
+    }
+
+    .container__mybob__hero__content__text{
+        padding: 40px 0px;
+    }
+
+    .container__mybob__hero__content__text h3{
+        font-size:30px;
+        width:300px;
+    }
+
+    .container__mybob__hero__content__text p{
+        font-size:16px;
+        width:290px;
+    }
+
+    .container__mybob__hero__content__image img{
+        height:230px;
+    }
+
+    .container__mybob__main{
+        width:790px;
+    }
+
+    .container__mybob__main h3{
+        font-size: 26px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .container__mybob__main__content{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .container__mybob__main__content__text2{
+        padding-top:50px;
+    }
+
+    .container__mybob__main__button{
+        width:790px;
+        margin:0 auto;
+    }
+
+    .container__mybob__main2__content{
+        width: 790px;
+    }
+
+    .container__mybob__main2__content__order{
+        width:790px;
+    }
+
+    .container__mybob__main2__content h3{
+        padding-bottom: 30px;
+        font-size: 26px;
+    }
+
+    .container__mybob__main2__content__order__visual{
+        padding-bottom: 30px;
+    }
+
+    .container__mybob__main2__content__order__visual img{
+        height: 300px;
+    }
+
+    .container__mybob__main2__content__button{
+        width:790px;
+        margin:0 auto;
+    }
+
+    /**yourbob**/
+
+    .container__yourbob__hero__content{
+        width: 790px;
+        margin:0 auto;
+    }
+
+    .container__yourbob__hero__content__text{
+        padding: 40px 0px;
+    }
+
+    .container__yourbob__hero__content__text h3{
+        font-size:30px;
+        width:300px;
+    }
+
+    .container__yourbob__hero__content__text p{
+        font-size:16px;
+        width:290px;
+    }
+
+    .container__yourbob__hero__content__image img{
+        height:230px;
+    }
+
+    .container__yourbob__main__width{
+        width:790px;
+        margin:0 auto;
+    }
+
+    .container__yourbob__main__title h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    .yourbob__main__title__h3__1 h3{
+        font-size: 26px;
+    }
+
+    .yourbob__main__title__h3__2 h3{
+        font-size: 22px;
+    }
+
+    .container__yourbob__main__content{
+        width:790px;
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+    .container__yourbob__main__image{
+        width:790px;
+        display:flex;
+        justify-content: flex-end;
+    }
+
+    .container__yourbob__main__image img{
+        width:300px;
+    }
+
+    .container__yourbob__main__content__text{
+        width:790px;
+        display:flex;
+        justify-content: space-between;
+    }
+
+    .container__yourbob__main__content__text__box p{
+        width:350px;
+    }
+    
+    .container__yourbob__main__saison{
+        width:790px;
+    }
+
+    .container__yourbob__main__saison h3{
+        display: flex;
+        justify-content: center;
+        font-size: 26px;
+    }
+
+    .container__yourbob__main__saison__box__duo{
+        width:790px;
+        margin:0 auto;
+    }
+    
+    .container__yourbob__main__saison__box__duo div{
+        width: 355px;
+        height: 213px;
+        display:flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width:790px){
+
+    header{
+        width:460px;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .container__header__submenu{
+        z-index:1;
+    }
+
+    .container__header{
+        width:460px;
+        margin:0 auto;
+    }
+
+    .container__header__menu a{
+        font-size:14px;
+    }
+
+    .container__footer{
+        width: 460px;
+    }
+
+    .container__footer h3{
+        display: flex;
+        justify-content: center;
+    }
+
+    /*footer**/
+
+    .container__footer__account{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .container__footer__account__fillIn{
+        padding-bottom:7px;
+    }
+
+    .container__footer__account__fillIn__box input{
+        width: 350px;
+    }
+
+    .container__footer__account__genre{
+        background-color:#FFF;
+        width: 366px;
+        height: 85px;
+    }
+
+    .container__footer__conditions div{
+        width:350px;
+        margin:0 auto;
+    }
+
+    /**index*/
+    .container__hero__content{
+        width: 460px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .container__hero__content__text{
+        padding-bottom:10px;
+    }
+
+    .container__hero__content__text h3{
+        font-size:28px;
+        width:300px;
+        text-align:center;
+    }
+
+    .container__hero__content__text p{
+        font-size:16px;
+        width:290px;
+        text-align:center;
+    }
+
+    .container__hero__content__text__button{
+        display:flex;
+        justify-content:center;
+    }
+
+    .container__hero__content__picture img{
+        width:460px;
+    }
+
+    .container__main{
+        width:460px;
+    }
+
+    .container__main h3{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .container__main__content{
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .container__main__content__box{
+        width:430px;
+    }
+    /**mybob*/
+
+    .container__mybob__hero__content{
+        width: 460px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        padding: 0px;
+        align-items:center;
+    }
+
+    .image1{
+        transform: rotate(180deg);
+    }
+
+    .container__mybob__hero__content__text{
+        padding: 20px 0px;
+    }
+
+    .container__mybob__hero__content__text h3{
+        font-size:28px;
+    }
+
+    .container__mybob__hero__content__text p{
+        font-size:16px;
+    }
+
+    .container__mybob__hero__content__image{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .container__mybob__hero__content__image img{
+        height:240px;
+    }
+
+    .container__mybob__main{
+        width:460px;
+    }
+
+    .container__mybob__main h3{
+        font-size: 22px;
+        text-align:center;
+    }
+
+    .container__mybob__main__content__text img{
+        height:250px;
+    }
+
+    .container__mybob__main__button{
+        width:460px;
+        margin:0 auto;
+    }
+
+    .container__mybob__main2__content{
+        width: 460px;
+    }
+
+    .container__mybob__main2__content__order{
+        width:460px;
+        display: flex;
+        flex-direction:column-reverse;
+    }
+
+    .container__mybob__main2__content h3{
+        font-size: 24px;
+    }
+
+    .container__mybob__main2__content__order__visual img{
+        height: 280px;
+    }
+
+    .container__mybob__main2__content__button{
+        width:460px;
+        margin:0 auto;
+    }
+
+    /**yourbob*/
+
+    .container__yourbob__hero__content{
+        width: 460px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        padding: 0px;
+        align-items:center;
+    }
+
+    .image2{
+        transform: rotate(180deg);
+    }
+
+    .container__yourbob__hero__content__text{
+        padding: 20px 0px;
+    }
+
+    .container__yourbob__hero__content__text h3{
+        font-size:28px;
+    }
+
+    .container__yourbob__hero__content__text p{
+        font-size:16px;
+    }
+
+    .container__yourbob__hero__content__image{
+        display:flex;
+        justify-content:center;
+    }
+    
+    .container__yourbob__hero__content__image img{
+        height:230px;
+    }
+
+    .container__yourbob__main__width{
+        width:460px;
+    }
+
+    .container__yourbob__main__title h3{
+        text-align:center;
+    }
+
+    .yourbob__main__title__h3__1 h3{
+        font-size:22px;
+    }
+
+    .yourbob__main__title__h3__2 h3{
+        font-size:18px;
+    }
+
+    .container__yourbob__main__content{
+        width:460px;
+    }
+
+    .container__yourbob__main__image{
+        width:460px;
+        margin:0 auto;
+    }
+
+    .container__yourbob__main__image img{
+        width:250px;
+        padding:0px;
+    }
+
+    .container__yourbob__main__content__text{
+        width: 460px;
+        display:flex;
+        flex-direction:column;
+        
+    }
+
+    .container__yourbob__main__content__text__box{
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        text-align: center;;
+    }
+
+    .container__yourbob__main__button__text{
+        margin:0 auto;
+    }
+
+
+    .container__yourbob__main__saison{
+        width:460px;
+    }
+
+    .container__yourbob__main__saison h3{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+    }
+
+    .container__yourbob__main__saison__box__duo{
+        width:460px;
+        margin:0 auto;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+}
